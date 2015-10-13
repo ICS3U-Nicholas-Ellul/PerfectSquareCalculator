@@ -35,7 +35,7 @@ namespace PerfectSquareCalculator
 
             //process
             this.lstOutput.Items.Clear();
-            while (counter < inputValue)
+            while (counter <= inputValue)
             {
                 squareRootAsDouble = Math.Sqrt(counter);
                 squareRootAsInt = Convert.ToInt32(squareRootAsDouble);
