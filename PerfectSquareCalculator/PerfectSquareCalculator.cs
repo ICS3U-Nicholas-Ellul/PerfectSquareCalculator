@@ -3,7 +3,7 @@
  * Created on: 13-Oct-2015
  * Created for: ICS3U
  * Daily Assignment – Unit 3-09
- * This program lists perfect squares up to a certain number
+ * This program lists perfect squares up to a certain number.
 */
 
 using System;
@@ -51,6 +51,11 @@ namespace PerfectSquareCalculator
                 counter++;
             }
            
+        }
+
+        private void mniExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
